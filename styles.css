@@ -161,7 +161,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -170,5 +170,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-height: 70px;
+    padding-bottom: 5%;
 }
