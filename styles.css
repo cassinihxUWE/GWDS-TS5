@@ -155,12 +155,20 @@ figcaption {
     font-size: 20px;
 }
 
+/* footer stuff */
+
+h6 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-}
-
-.footertext {
-    text-align: center;
+    justify-content: center;
 }
